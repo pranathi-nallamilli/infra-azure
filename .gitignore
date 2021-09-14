@@ -1,0 +1,6 @@
+.terragrunt-cache/
+vnet/.terraform.lock.hcl
+vnet/.terragrunt-cache/
+test_rg/.terragrunt-cache/
+test_rg/.terraform.lock.hcl
+

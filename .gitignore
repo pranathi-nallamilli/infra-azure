@@ -7,3 +7,4 @@ module/storage_account/.terragrunt-cache/
 module/storage_account/.terraform.lock.hcl
 module/vm/.terragrunt-cache/
 module/vm/.terraform.lock.hcl
+.terraform/

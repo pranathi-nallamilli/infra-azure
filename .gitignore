@@ -8,3 +8,4 @@ module/storage_account/.terraform.lock.hcl
 module/vm/.terragrunt-cache/
 module/vm/.terraform.lock.hcl
 .terraform/
+.terraform/providers/registry.terraform.io/hashicorp/azurerm/2.76.0/linux_amd64/terraform-provider-azurerm_v2.76.0_x5

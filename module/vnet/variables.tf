@@ -15,6 +15,11 @@ variable "vnet_name" {
   default     = ""
 }
 
+variable "subnet_id" {
+  description = "Name of the subnet to create"
+  default     = ""
+}
+
 variable "address_space" {
   description = "The address space that is used by the virtual network."
   default     = ""

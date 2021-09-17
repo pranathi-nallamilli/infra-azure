@@ -1,6 +1,9 @@
 .terragrunt-cache/
-vnet/.terraform.lock.hcl
-vnet/.terragrunt-cache/
-test_rg/.terragrunt-cache/
-test_rg/.terraform.lock.hcl
-
+module/vnet/.terraform.lock.hcl
+module/vnet/.terragrunt-cache/
+module/test_rg/.terragrunt-cache/
+module/test_rg/.terraform.lock.hcl
+module/storage_account/.terragrunt-cache/
+module/storage_account/.terraform.lock.hcl
+module/vm/.terragrunt-cache/
+module/vm/.terraform.lock.hcl

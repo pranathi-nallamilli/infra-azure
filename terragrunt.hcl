@@ -20,8 +20,14 @@ remote_state {
 inputs = {
 location = "East US"
 resource_group_name = "rgdeloitte1"
-storage_account_name   = "azdisney1"  
+node_resource_group = "node-rgdeloitte1"
+storage_account_name   = "azdisney1" 
+cluster_name        = "disney-aks" 
+kubernetes_version  = "1.19.13"
+system_node_count   = 2
+vm_size             = "Standard_B1ls"
 storage_container_name = "discontainer"
+sku                 = "basic"
 nsg_name = "disg"
 vnet_name = "disvnet"
 address_space = "10.0.0.0/16"
